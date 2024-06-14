@@ -1,12 +1,18 @@
-def taximetro(distancia, multiplicador=1):
-    largada =3
-    km_rodado = 2
-    valor = (largada + distancia *
+def func1 (x):
+    x=10
+    print(f'o valor de X é : {x}')
 
-    km_rodado) * multiplicador
-    return valor
+def func2 (x):
+    x=20
+    print(f'o valor de X é : {x}')
 
+def func3 (x):
+    x=30
+    print(f'o valor de X é : {x}')
 
-pagamento = taximetro(3.5)
-print(pagamento)
+x=5
+func1(x)
+func2(x)
 
+func3(x)
+print (f'o valor de x é :{x}')
